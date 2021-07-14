@@ -1,0 +1,31 @@
+input{
+    margin-right: 2%;
+    width: 50%;
+}
+
+
+.input-search{
+    
+    margin-right: 30px;
+    padding: 1rem;
+    border: none;
+    width: 40%;
+    border-radius: 10rem;
+    transition: all 0.2s ease-in;
+}
+
+.input-search:focus {
+    outline: none;
+}
+.btn {
+    padding: .8rem 4rem;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 10rem;
+    outline: none;
+    transition: all 0.1s ease-in;
+}
+.btn:active{
+    transform: translateY(2px);
+}

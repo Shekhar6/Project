@@ -1,0 +1,46 @@
+
+.logo-img {
+    width: 10%;
+    float: left;
+}
+
+
+.navbar-container{
+    display: flex;
+    justify-content: flex-start;    
+    
+}
+.NavLink {
+    font-size: 1.7rem;
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+search-input{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .Navbar{
+        flex-direction: column;
+        position: relative;
+        margin-top: 20px;
+        padding:0;
+        top: 0;
+        text-align: right;
+    }
+    .navbar-container {
+        justify-content: flex-end;
+        flex-direction: column;
+        background-color: blueviolet;
+    }
+    .search-input{
+        flex-direction: column;
+        float: right;
+        margin: 0;
+        padding: 0;
+    }
+}
