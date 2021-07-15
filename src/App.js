@@ -104,6 +104,7 @@ handleState = () => {
         <Route strict exact path="/movies" render={routeProps => (<Movies value={this.state.isActive} getMovies={this.getMovies} movie ={this.state.newlyAdded} {...routeProps}/>)}></Route>
         <Route strict exact path="/new" render={routeProps => (<Popular value={this.state.isActive} getPopular={this.getPopular} movie={this.state.popular} {...routeProps}/>)} ></Route>
         <Route  exact path="/" render={routeProps => (<Home value={this.state.isActive} movies={this.state.popularMovies} {...routeProps} />)}></Route>
+        <Route  exact path="/Project" render={routeProps => (<Home value={this.state.isActive} movies={this.state.popularMovies} {...routeProps} />)}></Route>
         <Route exact path="/search" render={routeProps => (<SearchView searched={this.state.searched} {...routeProps}  />)} />
         {rend}
         {rend2}

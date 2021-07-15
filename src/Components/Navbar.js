@@ -13,7 +13,7 @@ export default class Navbar extends Component {
                    
             <div className="Navbar">
                 <div className="logo-img">
-                    <img className="logo" src="https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg" alt="netflex"/>
+                  <NavLink to="/">  <img className="logo" src="https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg" alt="netflex"/></NavLink>
                 </div>
                 <nav className="navbar-container">  
                   
